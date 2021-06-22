@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome tweak</title>
+</head>
+<style>
+    body {
+      width: 200px;
+      height: 200px;
+    }
+    input {
+      display: block;
+      margin: 0 auto;
+    }
+    h2 {
+      text-align: center;
+    }
+     p{
+      text-align: center;
+    }
+    #rotate,
+    #rotate3d {
+      width: 90%;
+    }
+  </style>
+</head>
+<body>
+  <h2>Chrome tweak</h2>
+  <p>Built by <a href="https://twitter.com/fotie_codes" target="_blank" rel="noopener noreferrer">fotiecodes</a></p>
+  <input type="color" id="color-changer" />
+  <h2>Rotate Page</h2>
+  <input type="range" min="0" max="360" step="1" value="0" id="rotate" />
+
+  <h2>Rotate 3D</h2>
+  <input type="range" min="0" max="360" step="1" value="0" id="rotate3d" />
+  <script src="popup.js"></script>
+</body>
+</html>
