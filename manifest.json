@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Chrome Tweak",
     "version": "1.0.0",
-    "description": "Tweak website with this chrome extension.",
+    "description": "Tweak website with this chrome extension. Rotate website to 360 degree and 3D plus change the background of websites",
     "icons": {
       "128": "icon128.png",
       "48": "icon48.png",
